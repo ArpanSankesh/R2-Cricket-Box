@@ -38,7 +38,7 @@ const Navbar = () => {
                     BOX
                   </span>
                 </h1>
-                <div className="absolute -bottom-1 left-0 w-0 h-1 bg-gradient-to-r from-green-400 to-green-600 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-1 bg-linear-to-r from-green-400 to-green-600 group-hover:w-full transition-all duration-300"></div>
               </div>
             </a>
 
@@ -74,7 +74,7 @@ const Navbar = () => {
                 className="relative px-5 py-2.5 lg:px-6 lg:py-3 bg-green-500 text-black font-bold rounded-lg overflow-hidden group text-base lg:text-lg"
               >
                 <span className="relative z-10">Book Slot</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-green-400 to-emerald-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 <div className="absolute inset-0 border-2 border-green-400 rounded-lg translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-200 -z-10"></div>
               </a>
             </div>

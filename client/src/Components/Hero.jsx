@@ -13,7 +13,7 @@ const Hero = () => {
           backgroundImage: "url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2005&auto=format&fit=crop')",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/95 via-black/85 to-black"></div>
+        <div className="absolute inset-0 bg-linear-to-b from-black/95 via-black/85 to-black"></div>
       </div>
 
       {/* Content */}
@@ -32,7 +32,7 @@ const Hero = () => {
           Play Hard.
           <br />
           <span className="relative inline-block mt-2">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-emerald-400 to-green-500 animate-gradient-x">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-green-400 via-emerald-400 to-green-500 animate-gradient-x">
               Book Easy.
             </span>
             <svg className="absolute -bottom-2 left-0 w-full" height="12" viewBox="0 0 200 12" xmlns="http://www.w3.org/2000/svg">
