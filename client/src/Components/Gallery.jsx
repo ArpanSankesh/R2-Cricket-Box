@@ -14,7 +14,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-12 bg-black flex flex-col items-center justify-center gap-6">
+    <section id="gallery" className="md:py-12 py-4 bg-black flex flex-col items-center justify-center gap-6">
       <div className=" mx-auto px-4 md:px-20 ">
         
         {/* Header */}
@@ -26,7 +26,7 @@ const Gallery = () => {
         </div>
 
         
-        <div className="grid grid-cols-2 gap-3 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
           
           {images.map((img) => (
             <div

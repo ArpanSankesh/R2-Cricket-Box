@@ -5,15 +5,13 @@ import BookingSection from './Components/BookingSection'
 import Gallery from './Components/Gallery'
 import ContactSection from './Components/ContactSection'
 import Footer from './Components/Footer'
+import Home from './pages/Home'
 
 const App = () => {
   return (
     <div className='text-9xl'>
       <Navbar/>
-      <Hero/>
-      <Gallery/>
-      <BookingSection/>
-      <ContactSection/>
+      <Home />
       <Footer/>
     </div>
   )

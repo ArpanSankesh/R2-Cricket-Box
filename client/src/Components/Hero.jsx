@@ -5,14 +5,6 @@ const Hero = () => {
   return (
     <div id="home" className="relative min-h-screen flex items-center justify-center bg-black overflow-hidden">
       
-      {/* Animated Grid Background */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(34,197,94,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(34,197,94,0.03)_1px,transparent_1px)] bg-size-[50px_50px] mask-[radial-gradient(ellipse_80%_80%_at_50%_50%,black,transparent)]"></div>
-      </div>
-
-      {/* Gradient Orbs */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-green-500/20 rounded-full blur-3xl animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl animate-pulse"></div>
 
       {/* Background Image - Cricket/Sports Turf with better overlay */}
       <div 
@@ -30,7 +22,7 @@ const Hero = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full mb-8 backdrop-blur-sm">
           <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-          <span className="text-green-400 font-semibold text-sm tracking-wider uppercase">
+          <span className="text-green-400 font-semibold text-xs md:text-sm tracking-wider uppercase">
             24/7 Available • Premium Facility
           </span>
         </div>
@@ -64,7 +56,7 @@ const Hero = () => {
             className="group relative px-8 py-5 bg-green-500 text-black font-black text-lg rounded-xl transition-all duration-200 hover:translate-x-1 hover:translate-y-1"
           >
             <span className="relative z-10 flex items-center gap-2">
-              Book Now - ₹800/hr
+              Book Your Slot In Just ₹100
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -74,7 +66,7 @@ const Hero = () => {
 
           {/* Secondary CTA */}
           <a 
-            href="https://wa.me/918982836220" 
+            href="https://wa.me/918305343679" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group px-8 py-5 bg-transparent border-2 border-green-500/50 text-white font-bold text-lg rounded-xl hover:bg-green-500/10 hover:border-green-400 transition-all duration-200 backdrop-blur-sm flex items-center gap-2"
@@ -101,13 +93,6 @@ const Hero = () => {
             <div className="text-gray-500 text-sm font-medium uppercase tracking-wider">Per Hour</div>
           </div>
         </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
-        <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-        </svg>
       </div>
     </div>
   );
